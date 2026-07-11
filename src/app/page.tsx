@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -44,9 +45,9 @@ export default function Home() {
           <a href="#" className="text-sm md:text-base font-semibold text-slate-600 hover:text-poke-blue transition-colors hidden sm:block">
             포켓몬 소개
           </a>
-          <a href="#" className="text-sm md:text-base font-semibold text-slate-600 hover:text-poke-blue transition-colors hidden sm:block">
+          <Link href="/dogam" className="text-sm md:text-base font-semibold text-slate-600 hover:text-poke-blue transition-colors hidden sm:block">
             포켓몬 도감
-          </a>
+          </Link>
           <a href="#" className="px-4 py-2 text-sm md:text-base font-bold text-white bg-poke-blue rounded-full shadow-md shadow-poke-blue/20 hover:bg-poke-blue-dark transition-all hover:scale-105 active:scale-95">
             모험 시작
           </a>
